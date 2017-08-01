@@ -1,0 +1,458 @@
+body{
+	background-image: url('../images/concrete-texture.png');
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+h1, h2{
+	color: #4aaaa5;
+}
+
+li{
+	display: inline;
+
+}
+
+a{
+	color: #777777;
+	text-decoration: none;
+}
+li a{
+	padding: 12px;
+}
+
+
+footer{
+	clear: both;
+	background-color: #666666;
+	color: #777777;
+	position: absolute;
+    bottom: -20px;
+    height: 65px;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header{
+	border: solid #cccccc 1px;
+	background-color: #ffffff;
+	display: flex;
+}
+.nav{
+	padding-bottom: 20px;
+	padding: 25px 50px 0px 300px;
+	display: inline;
+	float: right;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.about{ 						
+	background-color: #ffffff;
+	padding: 15px 15px;
+	margin: 20px 0px;
+	border: solid #dddddd 1px;
+	width: 630px;
+	float: left;
+}
+.connect{
+	background-color: #ffffff;
+	padding: 15px 15px;
+	margin: 20px 0px 0px 25px;
+	border: solid #dddddd 1px;
+	width: 240px;
+	float: left;
+}
+
+/****************************************************************
+*****************************************************************
+PORTFOLIO IMAGES CSS */
+#photos{
+
+}
+.project{
+	position:relative; 
+	float:left; 
+	padding: 25px;
+	margin: 0 auto;
+}
+#proj1,
+#proj2,
+#proj3,
+#proj4{
+	position: absolute;
+    bottom: 50px;
+    left: 25px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 25px;
+    width: 66.7%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+/****************************************************************
+*****************************************************************
+PORTFOLIO IMAGES CSS */
+
+#name{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px;
+	width: 285px;
+	margin-left: 50px;
+	font-size: 34px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#PhilPhoto{
+	height: 250px;
+	width: 250px;
+	float :left;
+	padding: 20px;
+}
+
+#headerone{   /* ABOUT HEADING */
+	font-size: 28px;
+	border-bottom: solid #cccccc 1px;
+	margin: 15px 0px;
+	padding-bottom: 25px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#headertwo{   /* CONNECT HEADING */
+	font-size: 20px;
+	border-bottom: solid #cccccc 1px;
+	align-content: center;
+	font-weight: bold;
+	margin: 15px 0px 10px 0px;
+	padding-bottom: 25px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+#empty{
+	background-color: #4aaaa5;
+	position: absolute;
+    bottom: 0;
+    height: 52px;
+    width: 960px;
+    margin: 0 auto; 
+    clear: both;
+}
+#wrap{
+	width:960px;
+	margin: 0 auto;
+}
+
+/***************************************************************************
+****************************************************************************
+***************************************************************************/
+/*FORM CSS*/
+
+input,
+label,
+textarea {
+    width: 96%;
+}
+
+input,
+select,
+textarea {
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 1px #e1e1e1;
+    font-size: 16px;
+    padding: 8px;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: arial;
+}
+
+/****************************************************************
+*****************************************************************
+MEDIA QUERYS INDEX.HTML*/
+@media screen and (max-width: 980px){
+	
+	.contact-page footer{
+		position:absolute;
+	}
+	body{
+		width: 960px;
+	}
+
+
+	li a{
+		padding: 5px;
+		display: inline;
+	}	
+
+	footer {
+    	position: relative;
+    	bottom: 0;
+    	width: 960px;
+    	height: 65px;
+    	margin: 0 auto;
+	}
+	.nav{
+		padding-left: 250px;
+	}
+
+	#wrap{
+		width: 960;
+	}
+	.about{ 						
+		margin: 20px 20px;
+		width: 500px;
+		float: left;
+	}
+	.connect{
+		width: 182px;
+		float: left;
+		display: inline;
+	}
+
+	#PhilPhoto{
+		height: 400px;
+		width: 450px;
+	}
+
+	#empty{
+		position: relative;
+    	bottom: 0;
+    	height: 7px;
+    	width: 960px;
+	}
+
+	.project{
+		position: relative; 
+		float:none; 
+		padding: 0px;
+		margin: 0 auto;	
+	}
+	
+	#photo1,
+	#photo2,
+	#photo3,
+	#photo4{
+		padding: 25px 55px;
+    	width: 70%;
+    	padding-left: 43px;
+	}
+
+	#proj1,
+	#proj2,
+	#proj3,
+	#proj4{
+		position: absolute;
+    	bottom: 70px;
+    	left: 43px;
+    	padding: 15px;
+   	 	width: 49%;
+	}
+
+}
+	
+
+
+
+
+@media screen and (max-width: 768px){
+
+	body{
+		width: 768px;
+	}	
+
+	.contact-page footer{
+		position: relative;
+		bottom: 0;
+	}
+
+
+	.about{
+		width:600px;
+		margin: 30px auto;
+		float: none;
+	}
+	.connect{
+		width: 600px;
+		margin: 30px auto;
+		float: none;
+		display: block;
+	}
+	.header{
+		width: 768px;
+	}
+
+	.nav{
+		padding-left: 155px;
+	}
+
+	#wrap{
+		width:768px;
+	}
+
+	#PhilPhoto{
+		height: 250px;
+		width: 250px;
+	}
+	footer {
+    	position: relative;
+    	bottom: 0;
+    	width: 100%;
+    	height: 65px;
+    	margin: 0 auto;
+	}
+
+	#empty{
+		position: relative;
+    	bottom: 0;
+    	height: 7px;
+    	width: 768px;
+	}
+	.project{
+		position:relative; 
+		float:right; 
+		padding: 25px;
+		margin: 0 auto;
+	}
+	#proj1,
+	#proj2,
+	#proj3,
+	#proj4{
+		position: absolute;
+    	bottom: 50px;
+    	left: 25px;
+    	padding: 25px;
+    	width: 66.7%;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 640px){
+
+	body{
+		width: 640px;
+	}
+
+	li a {
+    	padding: 75px;
+    	display: inline;
+	}
+
+	.about{
+		width:525px;
+		margin: 30px auto;
+		float: none;
+	}
+	.connect{
+		width: 525px;
+		margin: 20px auto;
+		float: none;
+		display: block;
+	}
+	.header{
+		width: 640px;
+		position: relative;
+	}
+
+	.nav{
+		margin: 0px;
+    	border-bottom: solid #cccccc 1px;
+    	position: absolute;
+    	bottom: -20px;
+    	background-color: #ffffff;
+    	width: 640px;
+    	padding: 7px;
+    	text-align: center;
+	}
+
+	#wrap{
+		width: 640px;
+	}
+
+	#PhilPhoto{
+		height: 400px;
+		width: 450px;
+	}
+	footer {
+    	position: relative;
+    	bottom: 0;
+    	width: 100%;
+    	height: 65px;
+    	margin: 0 auto;
+	}
+
+	#empty{
+		position: relative;
+    	bottom: 0;
+    	height: 7px;
+    	width: 640px;
+	}
+
+	#name{
+		padding: 30px;
+		margin: 0;
+		width: 640px;
+		font-size: 34px;
+		text-align: center;
+	}
+	#social1,
+	#social2,
+	#social3,
+	#social4{
+		padding: 5px;
+	}
+	.project{
+		position: relative; 
+		float:none; 
+		padding: 0px;
+		margin: 0 auto;	
+	}
+	
+	#photo1,
+	#photo2,
+	#photo3,
+	#photo4{
+		padding: 25px 55px;
+    	width: 70%;
+    	padding-left: 43px;
+	}
+
+	#proj1,
+	#proj2,
+	#proj3,
+	#proj4{
+		position: absolute;
+    	bottom: 70px;
+    	left: 43px;
+    	padding: 15px;
+   	 	width: 47.3%;
+	}
+
+
+}	
+
+
+
+
+
+
+
+/****************************************************************
+*****************************************************************
+MEDIA QUERYS INDEX.HTML*/
